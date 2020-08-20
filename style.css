@@ -1,0 +1,41 @@
+header {
+  width: 960px;
+  margin: auto;
+}
+
+/* body {
+  width: 960px;
+} */
+
+header img[src="img/logo.png"] {
+  float: left;
+}
+
+header h1 {
+  margin-left: 50px;
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+header p {
+  font-size: small;
+  margin-top: 0px;
+  margin-left: 50px;
+}
+
+nav ul li{
+  display: inline;
+}
+
+nav ul {
+margin-left: 650px;
+}
+
+#cake {
+  width: 960px;
+  margin-left: 200px;
+} 
+
+/* main {
+
+} */
