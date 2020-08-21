@@ -1,41 +1,160 @@
 header {
-  width: 960px;
+  width: 900px;
   margin: auto;
 }
 
-/* body {
-  width: 960px;
-} */
 
 header img[src="img/logo.png"] {
   float: left;
+  margin-right: 10px;
 }
 
 header h1 {
-  margin-left: 50px;
-  font-style: italic;
-  margin-bottom: 0px;
+  font-family: cursive;
+  float: left;
+  margin-top: 0px;
+  
 }
 
-header p {
+nav p {
   font-size: small;
   margin-top: 0px;
   margin-left: 50px;
 }
 
 nav ul li{
-  display: inline;
+  display: inline-block;
 }
 
 nav ul {
-margin-left: 650px;
+margin-left: 620px;
+}
+
+#chocopizza {
+  margin-top: 50px;
 }
 
 #cake {
-  width: 960px;
   margin-left: 200px;
 } 
 
-/* main {
+#print {
+  text-align: right;
+  margin-top: 0px;
+  width: 1100px;;
 
-} */
+}
+
+main h1 {
+width: 900px;
+margin: auto;
+}
+
+h6 {
+  width: 900px;
+  margin: auto;
+}
+
+article p {
+  width: 900px;
+  margin: auto;
+  margin-top: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+article {
+  width: 900px;
+  margin: auto;
+  line-height: 1.6;
+  color: rgb(104, 79, 163);
+  text-indent: 30px;
+  font-size: 18px;
+}
+
+#list {
+  margin-left: 210px;
+  margin-top: 30px;
+}
+
+header div {
+  background-image: linear-gradient(45deg, #B1B3B1 25%, #F5F5F5 25%, #F5F5F5 50%, #B1B3B1 50%, #B1B3B1 75%, #F5F5F5 75%, #F5F5F5 100%);
+background-size: 5.66px 5.66px;
+height: 15px;
+}
+
+fieldset {
+  width: 900px;
+  margin: auto;
+  display: inline-block;
+}
+
+#fieldsetone {
+  width: 430px;
+  border: none;
+  margin-left: 260px;
+}
+
+#fieldsettwo {
+  width: 430px;
+  border: none;
+}
+
+form {
+  background-image: url(img/list-bg.png);
+  margin-top: 30px;
+}
+
+#border {
+  background-image: linear-gradient(45deg, #B1B3B1 25%, #F5F5F5 25%, #F5F5F5 50%, #B1B3B1 50%, #B1B3B1 75%, #F5F5F5 75%, #F5F5F5 100%);
+background-size: 5.66px 5.66px;
+height: 15px;
+margin-bottom: 50px;
+margin-top: 40px;
+width: 900px;
+margin-left: 200px;
+}
+
+#vanessa {
+  margin: auto;
+  float: left;
+}
+
+section h6 {
+float: left;
+font-size: 21px;
+margin-left: 19px;
+color: #525352;
+}
+
+#button {
+  background-color: rgb(185, 89, 82);
+  color: white;
+  display: inline-block;
+  float: right;
+  padding: 17px 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-right: 250px;
+}
+
+section p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  float: left;
+  font-size: 17px;
+  width: 580px;
+  line-height: 1.6;
+  margin-left: 19px;
+  margin-top: 10px;
+  color: #6e6e6e;
+}
+
+#lastsection {
+  margin-left: 200px;
+}
+
+footer {
+  width: 900px;
+  margin-top: 200px;
+  margin-left: 150px;
+  text-align: center;
+
+}
